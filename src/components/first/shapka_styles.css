@@ -1,0 +1,227 @@
+body{
+	margin:0;
+}
+.shapka{
+	height: 740px;
+	display: grid;
+	grid-template-rows: 17.84% 82.25%;
+
+}
+
+.logoHeader{
+	display: grid;
+	grid-template-columns: 12.44%  45.56%  5.75%  23.69% 12.44%;
+	grid-template-rows: 100%;
+	align-items: center;
+}
+
+.logoBlock{
+	grid-column: 2/3;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 100%;
+	align-items: center;
+	column-gap: 10px;
+}
+
+.logo{
+	width: 200px;
+	height: 60px;
+	grid-column: 1;
+}
+.logoText{
+	border-left: groove 1px #333;
+	grid-column: 2;
+	line-height: 0.5;
+	padding-left: 10px;
+}
+
+.callback{
+	grid-column: 4/5;
+	justify-self:center;
+	
+}
+.callback>img{
+	display: inline;
+}
+.callback>button{
+	background-color: #11558f;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	text-transform: uppercase;
+	border:none;
+			
+	font-family: "Roboto Condensed";
+	font-size: 19.207px;
+	line-height: 1.2;
+ 
+}
+
+
+.underLogoHeader{
+	display: grid;
+	grid-template-columns: 13.44%  41.25% 9.25% 22.70%  13.63%;   /* 148  363*/
+	 /*13.44%  46.00% 4.25% 22.69%  13.63%;*/
+	grid-template-rows:  93.08% 6.92%;  /* 100%; */
+}
+
+.underLogoHeaderBackground{
+	grid-column: 1/6;
+	grid-row: 1/3;
+	filter: blur(1px);
+    background:   linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),url(../../img/1_shapka/background.jpg);
+	background-position: 100% 26%;
+	background-size: 110%;
+
+} 
+
+.underLogoHeaderTextBackground{
+	grid-row: 1/3;
+	grid-column: 1/6;
+
+	height: 100%;
+	width: 54.55%;
+	background-color: #11446a;  /* 4f81ac */
+	opacity: 0.85;
+}  
+
+.underLogoHeaderTextBackgroundTriangles{
+	grid-row: 1/3;
+	grid-column: 3/4;
+	width: 100%;
+	height: 100%;
+	opacity: 0.85;
+}
+.costulTriangle1{
+	width: 26px;
+	height: 100%;
+	background-color: #11446a;
+	opacity: 0.6; 
+}
+.underLogoHeaderTextBackgroundTriangles::after{
+
+	position: absolute;
+	top: 17.5%;
+	content:'';
+	width: 0;
+	height: 0;
+	border-top: 303px solid transparent;
+	border-left: 56px solid #11446a;
+	border-bottom: 303px solid transparent;
+	z-index: 2;
+}
+.costulTriangle1::before{
+	content:'';
+	position: absolute;
+	top:17.5%;
+	margin-left: 26px;
+	width: 0;
+	height: 0;
+	border-top: 303px solid transparent;
+	border-left: 56px solid #11446a;
+	border-bottom: 303px solid transparent;
+}
+
+.TextLeft{
+	grid-column: 2/3;
+	grid-row: 1;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 53.89% 15.01% 31.1%;
+	align-items: center;
+	z-index: 2;
+} 
+.underLogoHeaderTitle{
+	grid-row: 1; 
+}
+.underLogoHeaderTitle h2, .underLogoHeaderTitle h3{
+	display: inline;
+	color: #fff;
+}
+
+.underLogoHeaderLikesText{
+	grid-template-rows: 2;
+}
+.underLogoHeaderLikesText p, .underLogoHeaderLikesText img{
+	display: inline;
+	color: #fff;
+}
+
+.underLogoHeaderPricesText{
+	grid-template-rows: 3;
+}
+.underLogoHeaderPricesText p, .underLogoHeaderPricesText h2{
+	display: inline;
+}
+.underLogoHeaderPrice80{
+	background-color: #f28235;
+	border-radius: 50%;
+	width: 105px;
+	height: 105px;
+	text-align: center;
+	line-height: 105px; 
+}
+
+.FormRight{
+	grid-row: 1;
+	grid-column: 4;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 36.64% 43.36% 20%;
+	justify-items:center;
+	align-items: center;
+
+	z-index: 2;
+}
+.FormRightForm input{
+	  width: 100%;
+	  height: 50px;
+	  margin: 10px;
+	  background-color: rgba(255, 255, 255, 0.4);   /*rgba(153, 153, 153, 0.4)*/
+	  /* 342x55 */
+	  border: none;
+	  padding-left: 10px;
+}
+.FormRightForm input::placeholder{
+	color: #fff;
+	font-style: italic;
+	font-size: 21px;
+	font-family: "PFDinTextCondPro";
+	line-height: 0.9;
+	text-align: left;
+	z-index: 440;
+}
+
+input[name='UserName']{
+	background-image: url('../../img/1_shapka/UserName_form.png') no-repeat;
+	background-position: right;
+}
+input[name='UserPhone']{
+	background-image: url('../../img/1_shapka/UserPhone_form.png') no-repeat;
+	background-position: right;		
+}
+
+.FormRight>p{
+	align-self: end;
+	margin: 0;
+}
+
+.akziynaCzina{
+	background-color: #0c8fd6;
+	border:none;
+	border-radius: 10px;
+	padding: 15px 30px;
+	font-size: 30px;
+	font-family: "PFDinTextCompPro";
+	color: #fff;
+	line-height: 1.2;
+	text-transform: uppercase;
+
+	justify-self:center;
+}
+
+
