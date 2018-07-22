@@ -1,0 +1,67 @@
+.tenth_container{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.ten-shapka{
+	color: #11558f;
+	height: 135px;
+}
+
+.ten-foot{
+	height: 210px;
+	background-color: #11558f;
+}
+
+.ten-foot span{
+	color: #0c8fd6;
+}
+
+.ten-foot p{
+	color: #fff;
+	margin-top: 0;
+}
+
+.ten-foot button{
+	background-color: #0c8fd6;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 10px 25px;
+}
+
+.foot{
+	display: grid;
+	grid-template-columns: 13.43% 2.8% 23.13% 2.8% 21.91% 2.8% 19.7% 13.43%;
+	align-items: start;
+	color: #11558f;
+	text-align: left;
+}
+
+.foot-loc{
+	grid-column: 2 / 3;
+	margin: auto;
+}
+
+.foot-ftext{
+	grid-column: 3 / 4;
+}
+
+.foot-pho{
+	grid-column: 4 / 5;
+	margin: auto;
+}
+
+.foot-stext{
+	grid-column: 5 / 6;
+}
+
+.foot-email{
+	grid-column: 6 / 7;
+	margin: auto;
+}
+
+.foot-ttext{
+	grid-column: 7 / 8;
+}
