@@ -1,0 +1,61 @@
+.fourth_container{
+	display: grid;
+	grid-template-columns: 12.5% 75% 12.5%;
+	grid-template-rows: 24.73% 60.52% 14.72%
+}
+
+.fo-zagolovok{
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	text-transform: uppercase;
+}
+
+.fo-zag{
+	border-left: 5px #11558f solid; 
+	padding-left: 5px;
+}
+
+.fo-blue{
+	color: #11558f;
+}
+
+.fo-table{
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	color: #11558f;
+}
+
+.fo-table th{
+	text-transform: uppercase;
+	text-align: center;
+	width: 18.75%;
+} 
+
+.fo-table td{
+	width: 18.75%;
+	height: 80px;
+	text-align: center;
+}
+
+.fo-table .fo-h{
+	text-align: left;
+}
+
+.fo-table tfoot{
+	text-transform: uppercase;
+}
+
+.fo-footer{
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;
+	margin: 0 auto;
+}
+
+.fo-footer button{
+	background-color: #11558f;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 10px 25px;
+}
