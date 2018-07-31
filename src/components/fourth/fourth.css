@@ -8,11 +8,22 @@
 	grid-column: 2 / 3;
 	grid-row: 1 / 2;
 	text-transform: uppercase;
+	font-family: "BebasNeueCyrillic";
+	font-size: 48px;
+	color: #484848
 }
 
 .fo-zag{
 	border-left: 5px #11558f solid; 
 	padding-left: 5px;
+	margin-bottom: 0;
+}
+
+.foMini{
+	font-size: 36px;
+	color: #787878;
+	margin-top: 0;
+	margin-left: 10px;
 }
 
 .fo-blue{
@@ -23,6 +34,7 @@
 	grid-column: 2 / 3;
 	grid-row: 2 / 3;
 	color: #11558f;
+	border-collapse: collapse;
 }
 
 .fo-table th{
@@ -39,10 +51,15 @@
 
 .fo-table .fo-h{
 	text-align: left;
+	padding-left: 10px;
+	font-family: 'PFDinTextCondPro-light';
+    	font-size: 26px;
 }
 
 .fo-table tfoot{
 	text-transform: uppercase;
+	font-family: 'PFDinTextCondPro-light';
+    	font-size: 26px;
 }
 
 .fo-footer{
@@ -57,5 +74,17 @@
 	color: #fff;
 	text-transform: uppercase;
 	border-radius: 5px;
-	padding: 10px 25px;
+	padding: 10px 55px;
+	font-family: 'PFDinTextCompPro-XThin';
+	font-size: 26px;
+	font-weight: 300;
+}
+
+tbody td{
+	border: 1px #8a8b8a solid;
+}
+
+th{
+	font-family: 'PFDinTextCondPro-thin';
+    font-size: 30px;
 }
