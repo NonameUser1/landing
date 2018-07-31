@@ -17,3 +17,18 @@
 	font-family: 'PFDinTextCondPro-bold';
 	src: url('./PFDinTextCompPro-Bold.ttf') format('truetype');
 }
+
+@font-face{
+	font-family: 'PFDinTextCondPro-thin';
+	src: url('./PFDinTextCompPro-Thin.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'PFDinTextCondPro-light';
+	src: url('./PFDinTextCompPro-Light.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'PFDinTextCompPro-XThin';
+	src: url('./PFDinTextCompPro-XThin.ttf') format('truetype');
+}
