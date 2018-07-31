@@ -14,10 +14,10 @@ class App extends Component{
 				<Second />
 				<Third /> 
 				<Fourth />
+				<Eighth />
 				<Tenth />
 			</div>
 		 );
-		
 	}
 }
 
