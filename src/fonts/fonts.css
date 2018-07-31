@@ -1,0 +1,19 @@
+@font-face{
+	font-family: 'PFDinTextCondPro-light';
+	src: url('./PFDinTextCompPro-Italic.ttf') format('truetype'); 
+}
+
+@font-face{
+  	font-family: "BebasNeueCyrillic";
+	src: url('./Bebas_Neue_Cyrillic.ttf') format('truetype'); 
+}
+
+@font-face{
+	font-family: 'PFDinTextCondPro-regular';
+	src: url('./PFDinTextCompPro-Regular_0.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'PFDinTextCondPro-bold';
+	src: url('./PFDinTextCompPro-Bold.ttf') format('truetype');
+}
