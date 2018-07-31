@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './fonts/fonts.css';
 import Shapka from './components/first/shapka.js';
 import Second from './components/second/second.js';
 import Third from './components/third/third.js';
