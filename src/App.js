@@ -4,6 +4,7 @@ import Second from './components/second/second.js';
 import Third from './components/third/third.js';
 import Fourth from './components/fourth/fourth.js';
 import Tenth from './components/tenth/tenth.js';
+import Eighth from './components/eighth/eighth.js';
 
 
 class App extends Component{
