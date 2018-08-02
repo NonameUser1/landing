@@ -2,13 +2,18 @@
 	display: grid;
 	grid-template-columns: 13.43% 17.18% 38.78% 17.18% 13.43%;
 	grid-template-rows: 13.94% 24.03% 24.03% 24.03% 13.97%;
-	/*height: 1040px;*/
+	height: 1040px;
 }
 
 .second_zagolovok{
 	grid-column: 2 / 4;
 	border-left: 5px #11558f solid; 
-	padding-left: 5px;
+	padding-left: 10px;
+	font-size: 48px;
+  	font-family: "BebasNeueCyrillic";
+  	color: #484848;
+  	margin-top: 35px;
+  	height: 100px;
 }
 
 .s-first{
@@ -44,11 +49,22 @@
 .s-video{
 	grid-column: 3 / 4;
 	grid-row: 2 / 5;
-	margin: 100px auto 0px; 
+	margin:  auto ; 
 	width: 95%;
 }
 
 .s-miniH{
 	color: #11558f;
 	text-transform: uppercase;
+	margin: 15px 0 0;
+}
+
+.s-div{
+	padding-top: 35px;
+	font-family: 'PFDinTextCondPro-light';
+    font-size: 24px;
+}
+
+.s-explain{
+	margin: 0;
 }
