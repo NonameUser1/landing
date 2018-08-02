@@ -29,6 +29,11 @@
 }
 
 @font-face{
-	font-family: 'PFDinTextCompPro-XThin';
+	font-family: 'PFDinTextCondPro-XThin';
 	src: url('./PFDinTextCompPro-XThin.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'PFDinTextCondPro-medium';
+	src: url('./PFDinTextCompPro-Medium.ttf') format('truetype');
 }
