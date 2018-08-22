@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: 12.5% 75% 12.5%;
 	grid-template-rows: 24.73% 60.52% 14.72%;
-		height: 955px;
+	height: 955px;
 }
 
 .fo-zagolovok{
@@ -16,7 +16,7 @@
 
 .fo-zag{
 	border-left: 5px #11558f solid; 
-	padding-left: 5px;
+	padding-left: 10px;
 	margin-bottom: 0;
 }
 
@@ -54,29 +54,29 @@
 	text-align: left;
 	padding-left: 10px;
 	font-family: 'PFDinTextCondPro-light';
-    	font-size: 26px;
+    font-size: 26px;
 }
 
 .fo-table tfoot{
 	text-transform: uppercase;
-	font-family: 'PFDinTextCondPro-light';
-    	font-size: 26px;
+		font-family: 'PFDinTextCondPro-light';
+    font-size: 26px;
 }
 
 .fo-footer{
 	grid-column: 2 / 3;
 	grid-row: 3 / 4;
 	margin: 0 auto;
+
 }
 
 .fo-footer button{
 	background-color: #11558f;
 	border: none;
-	color: #fff;
 	text-transform: uppercase;
 	border-radius: 5px;
 	padding: 10px 55px;
-	font-family: 'PFDinTextCompPro-XThin';
+	font-family: 'PFDinTextCondPro-XThin';
 	font-size: 26px;
 	font-weight: 300;
 }
@@ -88,4 +88,9 @@ tbody td{
 th{
 	font-family: 'PFDinTextCondPro-thin';
     font-size: 30px;
+}
+
+.fo-footer a{
+	text-decoration: none;
+	color: #fff;
 }
