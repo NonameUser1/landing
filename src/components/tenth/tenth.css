@@ -5,13 +5,13 @@
 
 .ten-shapka{
 	color: #11558f;
-	height: 135px;
+	height: 120px;
 }
 
 .ten-shapka > p{
-	padding-top: 15px;
 	font-size: 48px;
   	font-family: "BebasNeueCyrillic";
+  	margin: 15px auto;
 }
 
 .ten-foot{
@@ -35,12 +35,16 @@
 .ten-foot button{
 	background-color: #0c8fd6;
 	border: none;
-	color: #fff;
 	text-transform: uppercase;
 	border-radius: 5px;
 	padding: 10px 55px;
 	font-family: 'PFDinTextCondPro-light';
 	font-size: 26px;
+}
+
+.ten-foot a{
+	text-decoration: none;
+	color: #fff;
 }
 
 .foot{
@@ -72,7 +76,7 @@
 
 .foot-stext{
 	grid-column: 5 / 6;
-		padding-left: 25px;
+	padding-left: 25px;
 }
 
 .foot-email{
