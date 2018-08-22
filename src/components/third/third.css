@@ -122,8 +122,12 @@
 	padding: 10px 55px;
 	font-family: 'PFDinTextCondPro-XThin';
 	font-size: 26px;
-	color: #fff;
 	margin-top: 10px;
+}
+
+.thi-need a{
+	text-decoration: none;
+	color: #fff;
 }
 
 .thi-text{
