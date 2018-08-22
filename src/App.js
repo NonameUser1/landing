@@ -7,6 +7,8 @@ import Fourth from './components/fourth/fourth.js';
 import Sixth from './components/sixth/sixth.js';
 import Tenth from './components/tenth/tenth.js';
 import Eighth from './components/eighth/eighth.js';
+import Ninth from './components/ninth/ninth.js';
+import Fifth from './components/fifth/fifth.js';
 
 
 class App extends Component{
@@ -17,8 +19,10 @@ class App extends Component{
 				<Second />
 				<Third /> 
 				<Fourth />
+				<Fifth />
 				<Sixth />
 				<Eighth />
+				<Ninth />
 				<Tenth />
 			</div>
 		 );
