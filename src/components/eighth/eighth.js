@@ -27,7 +27,7 @@ class Eighth extends Component {
 
   render() {
     return (
-      <div className="eighth_container">
+      <div className="eighth_container" id='forma'>
         <p className="eighth_zagolovok"> дізнайтесь точну вартість покриття вашого авто </p>
       	<span className="ei-we_need"> нам треба знати лише марку та модель 
             <p className="ei-zatel"> Зателефонуємо всього за 30 хвилин і повідомимо точну вартість </p>
