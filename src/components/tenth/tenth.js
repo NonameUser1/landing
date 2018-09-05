@@ -18,7 +18,7 @@ class Tenth extends Component {
 
           <div className="ten-foot">
             <p>але акційну ціну можна зерезервувати <span> тільки тут </span>! </p>
-            <button> хочу акційну ціну </button>
+            <a href='#shapa'> хочу акційну ціну </a>
           </div>
 
           <div className="foot">  
