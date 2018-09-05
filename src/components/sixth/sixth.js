@@ -44,7 +44,7 @@ class Sixth extends Component {
         </div>
 
         <div className="si-foot">
-          <button className="si-button"> теж так хочу! </button> 
+          <a href='#forma' className="si-button" > теж так хочу! </a> 
         </div>
 
       </div>

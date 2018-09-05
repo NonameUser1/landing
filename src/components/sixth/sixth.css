@@ -90,15 +90,13 @@
 
 .si-button{
 	text-transform: uppercase;
+	text-decoration: none;
 	background-color: #fff;
 	border: #11558f 1px solid;
 	border-radius: 5px; 
+	
+	color: #11558f;
 	padding: 10px 85px;
 	font-family: 'PFDinTextCondPro-XThin';
 	font-size: 26px;
-}
-
-.si-button a{
-	text-decoration: none;
-	color: #11558f;
 }
