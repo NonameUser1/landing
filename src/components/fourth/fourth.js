@@ -64,7 +64,7 @@ class Fourth extends Component {
         </table>
 
         <div className="fo-footer">
-          <button> хочу найкращий засіб </button>
+          <a href='#forma' id='bestShototam' >хочу найкращий засіб</a>
         </div>
       </div>
     );
