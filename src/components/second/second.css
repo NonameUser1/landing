@@ -57,14 +57,18 @@
 	color: #11558f;
 	text-transform: uppercase;
 	margin: 15px 0 0;
+		font-family: 'PFDinTextCondPro-light';
+	font-size: 24px;
 }
 
 .s-div{
-	padding-top: 35px;
-	font-family: 'PFDinTextCondPro-light';
-    font-size: 24px;
+	padding-top: 35px !important;
+	
 }
 
 .s-explain{
 	margin: 0;
+	font-family: 'PFDinTextCondPro-thin';
+
+    font-size: 24px;
 }
