@@ -1,0 +1,56 @@
+
+.shapka{
+	height: 740px;
+	display: grid;
+	grid-template-rows: 16% 83%; 
+}
+
+.logoHeader{
+	display: grid;
+	grid-template-columns: 12.44%  45.56%  5.75%  23.69% 12.44%;
+	grid-template-rows: 100%;
+	align-items: center;
+
+}
+.logoBlock{
+	grid-column: 2/3;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 100%;
+	align-items: center;
+	column-gap: 10px;
+}
+.callback{
+	grid-column: 4/5;
+	justify-self:center;
+}
+
+.underLogoHeader{
+	display: grid;
+	grid-template-columns: 12.44%  42.25% 9.25% 22.70%  13.16%;
+	grid-template-rows: 100%;
+}
+
+@media screen and (max-width: 768px){
+	.logoHeader{
+		grid-template-columns: 2.5%  65%  2.5%  25% 5%;
+
+	}
+	.callbackPhone{
+		font-size: 2.049780380673499VW ;   /*22px*/
+
+	}
+	.underLogoHeader{
+		grid-template-columns: 18.75%  70% 9.25% 1%  1%;
+		grid-template-rows: 100% 100%;
+	}
+	.underLogoHeaderTextBackground{
+		grid-column: 1/3;
+		height: 100%;
+		width: 100%;
+	}
+	.FormRight{
+		grid-row: 2/3;
+	}
+
+}

@@ -1,0 +1,135 @@
+.fourth_container{
+	display: grid;
+	grid-template-columns: 12.5% 75% 12.5%;
+	grid-template-rows: 24.73% 60.52% 14.72%;
+		height: 955px;
+}
+
+.fo-zagolovok{
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	text-transform: uppercase;
+	font-family: "BebasNeueCyrillic";
+	font-size: 48px;
+	color: #484848
+}
+
+.fo-zag{
+	border-left: 5px #11558f solid; 
+	padding-left: 5px;
+	margin-bottom: 0;
+}
+
+.foMini{
+	font-size: 36px;
+	color: #787878;
+	margin-top: 0;
+	margin-left: 10px;
+}
+
+.fo-blue{
+	color: #11558f;
+}
+
+.fo-table{
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	color: #11558f;
+	border-collapse: collapse;
+}
+
+.fo-table th{
+	text-transform: uppercase;
+	text-align: center;
+	width: 18.75%;
+} 
+
+.fo-table td{
+	width: 18.75%;
+	height: 80px;
+	text-align: center;
+}
+
+.fo-table .fo-h{
+	text-align: left;
+	padding-left: 10px;
+	font-family: 'PFDinTextCondPro-light';
+    	font-size: 26px;
+}
+
+.fo-table tfoot{
+	text-transform: uppercase;
+	font-family: 'PFDinTextCondPro-light';
+    	font-size: 26px;
+}
+
+.fo-footer{
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;
+	margin: 0 auto;
+		margin-top: 50px;
+
+}
+
+
+tbody td{
+	border: 1px #8a8b8a solid;
+}
+
+th{
+	font-family: 'PFDinTextCondPro-thin';
+    font-size: 30px;
+}
+
+#bestShototam{
+	text-decoration: none;
+	background-color: #11558f;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 10px 55px;
+	font-family: 'PFDinTextCondPro-XThin';
+	font-size: 30px;
+	font-weight: 300;
+	letter-spacing: 1px;
+
+}
+
+
+@media screen and (max-width: 900px){
+	.fourth_container{
+		grid-template-columns: 6.5% 87% 6.5%;
+	}
+	.fo-zagolovok{
+		font-size:5.333333333333334VW;
+	}
+	th{
+		font-size:  3.3333333333333335VW;	
+	}
+	.foMini{
+		font-size: 5.111111111111112VW; 
+	}
+	
+}
+
+@media screen and (max-width: 600px){
+	.fourth_container{
+		grid-template-rows: 14.73% 60.52% 24.72%;
+	}
+	.tableImgYes{
+		width: 32px;
+		height: 20px;
+	}
+	.tableImgNo{
+		width: 17px;
+		height: 18px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#bestShototam{
+		font-size:6VW;
+	}
+}
+

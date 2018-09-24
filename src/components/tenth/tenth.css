@@ -1,0 +1,87 @@
+.tenth_container{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.ten-shapka{
+	color: #11558f;
+	height: 135px;
+}
+
+.ten-shapka > p{
+	padding-top: 15px;
+	font-size: 48px;
+  	font-family: "BebasNeueCyrillic";
+}
+
+.ten-foot{
+	height: 190px;
+	background-color: #11558f;
+}
+
+.ten-foot span{
+	color: #0c8fd6;
+}
+
+.ten-foot p{
+	color: #fff;
+	margin-top: 0;
+	font-size: 48px;
+  	font-family: "BebasNeueCyrillic";
+  	padding-top: 15px;
+  	margin-bottom: 30px;
+}
+
+.ten-foot>a{
+	text-decoration: none;
+	background-color: #0c8fd6;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 10px 55px;
+	font-family: 'PFDinTextCondPro-light';
+	font-size: 26px;
+}
+
+.foot{
+	display: grid;
+	grid-template-columns: 13.43% 2.8% 23.13% 2.8% 21.91% 2.8% 19.7% 13.43%;
+	align-items: start;
+	justify-content: space-between;	
+	color: #11558f;
+	text-align: left;
+	font-size: 24px;
+	font-family: 'PFDinTextCondPro-thin';	
+}
+
+.foot-loc{
+	grid-column: 2 / 3;
+	margin: auto;
+}
+
+.foot-ftext{
+	grid-column: 3 / 4;
+	padding-left: 5px;
+}
+
+.foot-pho{
+	grid-column: 4 / 5;
+	margin: auto;
+	padding-left: 20px;
+}
+
+.foot-stext{
+	grid-column: 5 / 6;
+		padding-left: 25px;
+}
+
+.foot-email{
+	grid-column: 6 / 7;
+	margin: auto;
+}
+
+.foot-ttext{
+	grid-column: 7 / 8;
+	padding-left: 15px;
+}

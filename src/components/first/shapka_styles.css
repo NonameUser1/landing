@@ -1,0 +1,283 @@
+body{
+	margin:0;
+	overflow-x: hidden;
+}
+
+
+
+.logo{
+	width: 100%;  /* 200px;*/
+	height: auto;  /*60px*/
+	grid-column: 1;
+}
+.logoText{
+	height: 70px;
+	border-left: solid 1px #cacaca;
+	grid-column: 2;
+	line-height: 0.5;
+	padding-left: 10px;
+}
+.logoText>h2{
+	font-size: 1.8301610541727673VW;  /*25px*/
+	font-family: 'PFDinTextCondPro-thin' ;
+	color: rgb(8, 68, 139);
+	text-transform: uppercase;
+	line-height: .5;
+	text-align: left;
+	letter-spacing: 1.5px;
+	margin-top: 12px;
+}
+.logoText>h2+h2{
+	color: #008bd7;
+}
+
+.callbackPhone{
+	text-align: center;
+	font-size: 1.7569546120058566VW;  /*24px*/
+	letter-spacing: 2px;
+ 	font-family: PFDinTextCondPro-regular;
+}
+.callbackPhone>img {
+	margin-right: 20px; 
+}
+.callbackPhone>img , .callbackPhone>p{
+	display: inline;
+}
+.callback>button{
+	background-color: #11558f;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	text-transform: uppercase;
+	border:none;
+	margin : 10px 0;		
+	font-family: "Roboto Condensed";
+	font-size:1.4060761346998536VW ;   /*19.207px*/
+	line-height: 1.2;
+}
+
+.underLogoHeaderBackground{
+	grid-column: 1/6;
+	grid-row: 1/2;
+	filter: blur(1px);
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ), url(../../img/1_shapka/background.jpg);
+	background-position: 100% 26%;
+	background-size: 110%;
+} 
+.underLogoHeaderTextBackground{
+	grid-row: 1/2;
+	grid-column: 1/6;
+	height: 100%;
+	width: 54.55%;
+	background-color: #11446a;
+	opacity: 0.85;
+}  
+.underLogoHeaderTextBackgroundTriangles{
+	grid-row: 1/2;
+	grid-column: 3/4;
+	width: 100%;
+	height: 100%;
+	opacity: 0.85;
+}
+.costulTriangle1{
+	width: 26px;
+	height: 100%;
+	background-color: #11446a;
+	opacity: 0.6; 
+}
+.underLogoHeaderTextBackgroundTriangles::after{
+	position: absolute;
+	top: 17.5%;
+	content:'';
+	width: 0;
+	height: 0;
+	border-top: 303px solid transparent;
+	border-left: 56px solid #11446a;
+	border-bottom: 303px solid transparent;
+	z-index: 2;
+}
+.costulTriangle1::before{
+	content:'';
+	position: absolute;
+	top:17.5%;
+	margin-left: 26px;
+	width: 0;
+	height: 0;
+	border-top: 303px solid transparent;
+	border-left: 56px solid #11446a;
+	border-bottom: 303px solid transparent;
+}
+.TextLeft{
+	grid-column: 2/3;
+	grid-row: 1/2;
+	display: grid;
+	grid-template-columns: 75% 25%;
+	grid-template-rows: 53.89% 15.01% 31.1%;
+	align-items: center;
+	z-index: 2;
+} 
+.underLogoHeaderTitle{
+	grid-row: 1/2;
+	grid-column: 1/3; 
+}
+.underLogoHeaderTitle h2, .underLogoHeaderTitle h3{
+	display: inline;
+	color: #fff;
+	letter-spacing: 2.5px;
+	line-height: 1.5;
+  	font-family: "BebasNeueCyrillic";
+}
+.underLogoHeaderTitle h2{
+	font-size: 32px;
+}
+.underLogoHeaderTitle h3{
+	font-size: 22px;
+	letter-spacing: 3px;
+}
+#orangeH2{
+	color: #f28235;
+}
+#blueH2{
+	color: #008bd7;
+}
+.underLogoHeaderLikesText{
+	grid-row: 2/3;
+	grid-column: 1/3; 
+}
+.underLogoHeaderLikesText p, .underLogoHeaderLikesText img{
+	display: inline;
+	color: #fff;
+}
+.underLogoHeaderLikesText img{
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+}
+
+.underLogoHeaderLikesText p{
+	font-size: 30px;
+ 	font-family: PFDinTextCondPro-XThin;
+ 	color: rgb(12, 143, 214);
+}
+.underLogoHeaderPricesText p, .underLogoHeaderPricesText h2 {
+	grid-row: 3/4;
+	grid-column: 1/2;
+	display: inline;
+	font-family: PFDinTextCondPro-thin;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.underLogoHeaderPricesText p{
+	font-size: 30px;
+}
+.underLogoHeaderPricesText p + p{
+	font-size: 50px;
+	text-decoration: line-through; 
+}
+.underLogoHeaderPrice80{
+	grid-row: 3/4;
+	grid-column: 2/3;
+	background-color: #f28235;
+	border-radius: 50%;
+	width: 85px; 
+	height: 85px;
+	text-align: center;
+	line-height: 85px; 
+	font-family: PFDinTextCondPro-thin;
+	font-size: 50px; 
+	color: #fff;
+}
+.FormRight{
+	grid-row: 1;
+	grid-column: 4/5;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 36.64% 43.36% 20%;
+	justify-items:center;
+	align-items: center;
+	z-index: 2;
+}
+.FormRightTitle{
+	font-family: 'PFDinTextCondPro-thin';
+	text-transform: uppercase;
+	text-align: center;
+	line-height: .05;
+	letter-spacing: 2px;
+}
+.FormRightTitle h3{
+	color: #fff;
+	font-size: 32px;
+}
+.FormRightTitle>h3 + h3{
+	font-size: 18px;
+}
+.FormRightTitle h2{
+	color: #f28235;
+	font-size: 42px;
+	letter-spacing: 3px;
+}
+.FormRightForm{
+
+}
+.FormRightForm input{
+	width: 84%;
+	height: 50px;
+	margin: 10px 0;
+	background-color: rgba(255, 255, 255, 0.4);
+	border: none;
+}
+.FormRightForm input::placeholder , .FormRightForm input{
+	color: #fff;
+	font-style: italic;
+	font-size: 21px;
+	font-family: 'PFDinTextCondPro-XThin';
+	line-height: 0.9;
+	letter-spacing: 2px;
+	text-align: left;
+	padding-left: 10px;
+}
+.FormRightForm>i{
+	padding: 14px 4px 14px 10px;
+	position: relative;
+    top: 5px;
+	background-color: rgba(255, 255, 255, 0.4); 
+	color: #fff;
+}
+.FormRight>p{
+	align-self: end;
+	margin: 0;
+}
+.FormRightForm>p{
+	color: #fff;
+	font-family: 'PFDinTextCondPro-thin';
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin: 0 0 15px ;
+}
+.FormRightForm+p{
+	font-family: 'PFDinTextCondPro-thin';
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.akziynaCzina{
+	background-color: #0c8fd6;
+	border:none;
+	width: 100%;
+	border-radius: 10px;
+	padding: 15px 30px;
+	font-size: 30px;
+	font-family: PFDinTextCondPro-thin;
+	letter-spacing: 1px;
+	color: #fff;
+	line-height: 1.2;
+	text-transform: uppercase;
+	justify-self:center;
+}
+
+
+
+
